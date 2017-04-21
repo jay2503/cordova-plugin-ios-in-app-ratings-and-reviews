@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-plugin-ios-in-app-ratings-and-reviews"
-    version="0.0.2">
+    version="0.0.3">
 
     <name>In App Ratings And Reviews</name>
     <description>Cordova plugin for iOS In App Ratings And Reviews</description>
