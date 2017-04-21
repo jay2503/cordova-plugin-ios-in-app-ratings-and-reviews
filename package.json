@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-ios-in-app-ratings-and-reviews",
+  "version": "0.0.2",
+  "description": "Cordova plugin for iOS In App Ratings And Reviews",
+  "cordova": {
+    "id": "cordova-plugin-ios-in-app-ratings-and-reviews",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jay2503/cordova-plugin-ios-in-app-ratings-and-reviews"
+  },
+  "keywords": [
+    "cordova",
+    "cordova-ios",
+    "ionic plugin",
+    "ios in app review",
+    "ios reviews and ratings",
+    "ios ratings",
+    "ios reviews plugin"
+  ],
+  "author": "Jay Mehta<jaym2503@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jay2503/cordova-plugin-ios-in-app-ratings-and-reviews/issues"
+  },
+  "homepage": "https://github.com/jay2503/cordova-plugin-ios-in-app-ratings-and-reviews"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-ios-in-app-ratings-and-reviews"
+    version="0.0.2">
+
+    <name>In App Ratings And Reviews</name>
+    <description>Cordova plugin for iOS In App Ratings And Reviews</description>
+    <license>MIT</license>
+
+    <engines>
+        <engine name="cordova" version=">=6.0.0"/>
+    </engines>
+
+  
+   <js-module src="www/InAppRatingsReview.js" name="InAppRatingsReview">
+        <clobbers target="cordova.plugins.InAppRatingsReview" />
+    </js-module>
+
+    <platform name="ios">
+        <framework src="StoreKit.framework" />
+    
+        <config-file target="config.xml" parent="/*">
+            <feature name="InAppRatingsReview">
+                <param name="ios-package" value="InAppRatingsReview"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/InAppRatingsReview.h"/>
+        <source-file src="src/ios/InAppRatingsReview.m"/>
+    </platform>
+</plugin>
