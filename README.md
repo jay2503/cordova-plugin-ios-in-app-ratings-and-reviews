@@ -32,5 +32,5 @@ MIT
 
 ## Author
 
-[Jay Mehta](https://www.linkedin.com/in/jay-mehta-ab293421/)
-[Sagar Thummar](https://www.linkedin.com/in/sagar-thummar-630639a1/)
+1. [Jay Mehta](https://www.linkedin.com/in/jay-mehta-ab293421/)
+2. [Sagar Thummar](https://www.linkedin.com/in/sagar-thummar-630639a1/)
