@@ -3,7 +3,7 @@ function InAppRatingsReview() {
 
 }
 
-InAppRatingsReview.prototype.requestReview = function (successCallback, errorCallback) {
+InAppRatingsReview.requestReview = function (successCallback, errorCallback) {
     cordova.exec(successCallback, errorCallback, 'InAppRatingsReview', 'requestReview', []);
 };
 
